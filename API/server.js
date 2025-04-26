@@ -12,14 +12,8 @@ app.use(express.json());
 
 app.post('/query', (req, res) => {
 
-  console.log('Received request body:', req.body);
-
-  
   const query = req.body.query || 'No query provided';
 
-  
-
- 
   res.json({ query });
 });
 
