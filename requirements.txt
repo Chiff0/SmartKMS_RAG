@@ -9,4 +9,4 @@ uvicorn[standard]
 mangum
 python-dotenv
 llama-index-readers-file
-# milvus-lite # Optional: for local-only testing if not using a server/cloud instance
+# milvus-lite # Optional: 
