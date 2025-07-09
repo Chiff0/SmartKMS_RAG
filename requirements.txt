@@ -1,0 +1,12 @@
+google-generativeai
+llama-index
+llama-index-llms-google-genai
+llama-index-embeddings-google-genai
+llama-index-vector-stores-milvus  # Milvus vector store integration
+pymilvus>=2.4.0                   # Milvus Python SDK
+fastapi
+uvicorn[standard]
+mangum
+python-dotenv
+llama-index-readers-file
+# milvus-lite # Optional: for local-only testing if not using a server/cloud instance
