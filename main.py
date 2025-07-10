@@ -5,7 +5,6 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from mangum import Mangum
 
-# Import from your new structured files
 from api.endpoints import router as api_router
 from core.rag_services import initialize_rag_chain
 from core.ingestion import ingest_documents_on_startup
@@ -32,7 +31,6 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# Include the API router. It's good practice to add a prefix.
 app.include_router(api_router, prefix="/api/v1")
 
 # --- AWS Lambda Handler ---
