@@ -79,7 +79,7 @@ docker run -p 8001:8001 --env-file ./.env rag-service
 
 ---
 
-⚙️ API: 
+⚙️ API: (outdated)
 
 Your service will be available at `http://localhost:8001`. Interactive API documentation (Swagger UI) is at `http://localhost:8001/docs`.
 
